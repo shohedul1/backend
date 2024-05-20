@@ -1,5 +1,6 @@
 import Book from "../model/book.model.js"; // Ensure the correct path
 
+//all data get
 export const getBook = async (req, res) => {
     try {
         const books = await Book.find();
